@@ -78,12 +78,15 @@ http://localhost:8501
 * Improve UI design
 
 ---
+## 🌐 Live Demo
+
+Try the application here:  
+https://app-todo-app-mgxcgmtsb6unwj2x4aicuo.streamlit.app
 
 ## 👩‍💻 Author
 
 **Shanmukhi Pratapa**
-CSE (AI & ML) Student
-VIT-AP University
+ Student At VIT-AP University
 
 ---
 
