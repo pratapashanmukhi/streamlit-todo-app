@@ -1,11 +1,27 @@
-﻿__pycache__/
+# Python bytecode & cache
+__pycache__/
 *.py[cod]
 *$py.class
 *.so
-.env
+
+# Environments
 venv/
 .venv/
 env/
+ENV/
+
+# Secrets & Local Configurations
+.env
+.env.*
+
+# Streamlit local state
+.streamlit/
+
+# IDE & OS files
 .idea/
 .vscode/
+*.swp
+*.swo
 *.log
+.DS_Store
+Thumbs.db
