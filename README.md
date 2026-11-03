@@ -1,93 +1,50 @@
-# 📝 Streamlit To-Do List App
+﻿# Streamlit Task Management Application
 
-A simple and interactive **To-Do List web application** built using **Python** and **Streamlit**.
-This project allows users to add, view, and delete tasks through a clean web interface.
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-FF4B4B.svg?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
----
-
-## 🚀 Features
-
-* ➕ Add new tasks easily
-* 📋 View all tasks in a list
-* ❌ Delete tasks instantly
-* 🌐 Interactive web interface using Streamlit
-* ⚡ Lightweight and beginner-friendly project
+A clean, interactive productivity and task management web application built with Streamlit, demonstrating stateful session management, real-time reactive UI updates, and lightweight client-side task persistence.
 
 ---
 
-## 🛠️ Technologies Used
+## Features
 
-* Python
-* Streamlit
+- **Task Creation & Scheduling**: Add discrete action items with instant state reflection.
+- **Completion Tracking**: Interactive checkbox triggers to mark tasks as accomplished.
+- **Task Deletion**: Immediate removal of stale tasks with cache invalidation.
+- **Session State Persistence**: Uses `st.session_state` to prevent state loss during reactive component rerenders.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
-streamlit-todo-app
-│
-├── app.py
-├── README.md
-└── requirements.txt
+streamlit-todo-app/
+├── app.py              # Main Streamlit web application & interface
+├── todo.py             # Underlying task list controller & helper methods
+├── requirements.txt    # Dependency manifest
+├── .gitignore          # Cache & environment exclusions
+└── README.md           # Documentation
 ```
 
 ---
 
-## ⚙️ Installation
+## Installation & Running
 
-1. Clone the repository
-
-```
-git clone https://github.com/your-username/streamlit-todo-app.git
-```
-
-2. Navigate to the project folder
-
-```
+```bash
+git clone https://github.com/pratapashanmukhi/streamlit-todo-app.git
 cd streamlit-todo-app
-```
-
-3. Install dependencies
-
-```
+python -m venv venv
+source venv/bin/activate  # or .\venv\Scripts\activate on Windows
 pip install -r requirements.txt
-```
-
----
-
-## ▶️ Run the Application
-
-```
 streamlit run app.py
 ```
 
-Then open your browser and go to:
-
-```
-http://localhost:8501
-```
-
 ---
 
-## 💡 Future Improvements
+## Author
 
-* Task completion checkbox
-* Save tasks to a file or database
-* Add task categories and deadlines
-* Improve UI design
-
----
-## 🌐 Live Demo
-
-Try the application here:  
-https://app-todo-app-mgxcgmtsb6unwj2x4aicuo.streamlit.app
-
-## 👩‍💻 Author
-
-**Shanmukhi Pratapa**
- Student At VIT-AP University
-
----
-
-⭐ If you found this project useful, consider giving it a star!
+**Shanmukhi Pratapa**  
+B.Tech CSE (AI & ML) — VIT-AP University  
+GitHub: [@pratapashanmukhi](https://github.com/pratapashanmukhi)
